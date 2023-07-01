@@ -1,0 +1,60 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 254px;
+    background-image: url('../');
+
+ }
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 254px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.nav-a {
+    font-size: 18px;
+    color: #37393f;
+    font-family: 'Inter';
+}
+
+.logoin {
+    width: 200px;
+    height: 38px;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul {
+    width: 602px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Get-Consulting {
+    width: 185px;
+    height: 65px;
+    background-color: #6B77E6;
+    padding: 21px 35px 22px 35px;
+    margin-left:40px;
+    font-family: 'Cabin';
+}
+
+.text-Get-Consulting {
+    color: #ffffff;
+}
